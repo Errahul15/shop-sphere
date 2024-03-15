@@ -1,4 +1,5 @@
 import { Component, Input } from '@angular/core';
+import { navigation } from './nav-content';
 
 @Component({
   selector: 'app-nav-content',
@@ -11,7 +12,7 @@ export class NavContentComponent {
 
 
   ngOnInit(){
-    this.category = navigator;
+    this.category = navigation;
   }
 
 }
